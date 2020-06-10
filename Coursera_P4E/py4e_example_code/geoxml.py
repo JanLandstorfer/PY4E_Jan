@@ -19,7 +19,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 while True:
-    address = input('Enter location: ')
+    address = 'http://py4e-data.dr-chuck.net/comments_42.xml'
     if len(address) < 1: break
 
     parms = dict()

@@ -13,6 +13,7 @@ data = '''
 ]'''
 
 info = json.loads(data)
+
 print('User count:', len(info))
 
 for item in info:
